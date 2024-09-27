@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: "Poppins", sans-serif; */
+  /* font-style: normal; */
+}
+.headerContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 90px 50px 90px;
+    background-color: #F0F0F0;
+}
+.headOfDot{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.dot{
+    background-color: #3683F0 ;
+    width: 5px;
+    height: 6px;
+    border-radius: 50%;
+}
+.rightSideHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.leftSideBtn{
+    background-color: black;
+    width: 132px;
+    height: 50px;
+    border-top-right-radius: 22px;
+    padding-top: 10px;
+    padding-right: 4px;
+    text-align: right;
+    
+}
+.arraowImage{
+    width: 39px;
+height: 29px;
+
+
+}
+.leftSideOne{
+    width: 68px;
+  height: 68px;
+  border-radius: 20px;
+  border: 1px solid #0029FF;
+  color: #0029FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+}
+.headerOfOne{
+  /* padding: 50px 32px 50px 32px; */
+  width: 135px;
+height: 692px;
+border-radius: 0px 0px 20px 20px;
+background-color:#FDFDFD;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+display: flex;
+justify-content: center;
+flex-direction: row;
+}
+.headOfBody{
+    display: flex;
+    flex-direction: row;
+}
+
+.HeadingInTheBody{
+    padding: 25px;
+    width: 1350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h2{
+    color: #0029FF;
+}
+.submitBtn{
+    color: #FDFDFD;
+  background-color:#0029FF;
+    border: none;
+    width: 121px;
+    height: 36px;
+    border-radius: 10px;
+    
+}
+.bodyDescrption{
+    margin-left: 25px;
+    width: 1290px;
+height: 120px;
+border-radius: 5px;
+padding: 10px 30px 0px 30px;
+background-color: #E9ECEF;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+p{
+    font-size: 18px;
+}
+.card{width: 480px;
+    height: 580px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Adjust shadow for better visibility */
+    background-color: #FDFDFD;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px; /* Optional: rounded corners at the bottom */
+    border-bottom-right-radius: 15px; /* Optional: rounded corners at the bottom */
+    margin: 20px 20px 20px 70px;
+     /* Positioning may help with shadow */
+     /* Ensure it stacks above other elements */
+    opacity: 1;
+/* border-radius: 15px; */
+    
+
+}
+.headerOfTheBodyContainer{
+    padding-left: 0px;
+}
+.cardHeader{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.i-iCon{
+    width: 22px;
+height: 22px;
+border-radius: 50%;
+background-color: white;
+color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.spanDescription{
+    font-weight: 800;
+}
+.cardDescription{
+    padding: 10px 10px 20px 10px;
+}
+.rotate-div{
+    /* transform: rotate(10deg); */
+    transform-origin: center;
+}
+.cardHeading{
+    padding-right: 100px;
+}
+.rotate-div{
+    background-color: #FEFFC033;
+    color: black;
+    font-weight: 800;
+    width: 478px;
+height: 40px;
+/* padding-left: 80px; */
+display: flex;
+flex-direction: row;
+align-items: center;
+    /* width: 100%; */
+
+}
+.thread{
+    color: black;
+}
+.vectorImage{
+    padding-left: 10px;
+    padding-right: 100px;
+}
+.inputBoxContainer{
+    width: 199px;
+height: 94.01px;
+
+}
+.labelContainer{
+        background-color: rgba(0, 0, 0, 0.05);
+        width: 199px;
+        height: 40px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding: 10px;
+        font-size: 15px;
+        box-sizing: border-box;
+        display: inline-block;
+}
+.inputBox{
+    width: 198px;
+    height: 70px;
+    border: none;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.inputBox:focus{
+    outline: none;
+
+}
+.inputHeader{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+select{
+    border: none;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: 91px;
+height: 32px;
+border-radius: 5px;
+
+}
+select,option{
+    width: 120px;
+}
+.listOfItems{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.subThreadBtn{
+    width: 97px;
+    height: 36px;
+    border: none;
+    background-color: #0029FF;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-left: 20px;
+}    
+.textFieldLabel{
+    background-color: rgba(0, 0, 0, 0.05);
+    width: 400px;
+    height: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.textFieldInput{
+    width: 400px;
+    height: 90px;
+    margin-left: 20px;
+    border: none;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.borderInCard{
+    border: 1px solid #D1CECE;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#titleInput {
+    width: 422px;
+    height: 43px;
+    border-radius: 5px;
+    display: block;
+    border: none;
+    margin: 20px 20px 10px 30px;
+    border: #D1CECE;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Shadow on the bottom and left */
+}
+#titleInput:focus{
+    outline: none;
+}
+.titleLabel{
+    font-weight: 800;
+    font-size: 20px;
+    padding: 20px 20px 10px 30px;
+}
+.contentHeader{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 15px;
+}
+.headOfTheContent{
+    border: #D1CECE;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    /* padding: 10px; */
+    margin: 20px 20px 10px 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.iconsHeader{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+.pBtn{
+    border: none;
+    color: #616161;
+}
+
+.dot1{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #616161;
+}
+.contentInput{
+    width: 428px;
+height: 142px;
+margin: -10px 20px 10px 30px;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+border: #D1CECE;
+}
+.contentInput:focus{
+    outline: none;
+}
+.cardDescription1{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.introductionBtn{
+    color: black;
+    width: 434px;
+height: 43px;
+background-color: #F2F2F2;
+margin-top: -20px;
+margin-left: 23px;
+
+}
+
+.spanImage{
+    padding-right: 10px;
+}
+.descriptionInProgress{
+    padding-top: 20px;
+    padding-bottom: 50px;
+margin-left: 23px;
+
+}
+.SeeMoreBtn{
+    color: #606161;
+    background-color: white;
+    border: none;
+    /* display: flex; */
+    /* justify-content: flex-end; */ 
+    width: 100%;
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.introductionBtn1{
+    color: black;
+    width: 434px;
+height: 43px;
+background-color: #F2F2F2;
+margin-left: 23px;
+}
+.headeOfTheCards{
+    display: flex;
+    padding-left: 70px;
+    flex-direction: row;
+    gap: 100px;
+    flex-wrap: wrap;
+    /* width: 100%; */
+}
+.exampleComponent{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    width: 392px;
+height: 760px;
+border-radius: 20px;
+
+}
+.headBlack{
+    width: 100%;
+    background-color: black;
+    border-top-right-radius: 20px;
+}
+.headingList{
+    font-weight: 800;
+    padding: 10px;
+    list-style-position: inside;
+}
+.headingList2{
+    list-style-position: inside;
+    padding: 10px;
+}
